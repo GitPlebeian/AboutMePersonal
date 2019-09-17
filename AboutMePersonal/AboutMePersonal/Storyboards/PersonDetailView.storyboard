@@ -76,7 +76,7 @@
                                 <state key="normal" title="&gt;"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dislikes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hf-EY-8wa">
-                                <rect key="frame" x="62" y="506.5" width="290" height="20.5"/>
+                                <rect key="frame" x="62" y="516.5" width="290" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -88,18 +88,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaE-Gv-Khh">
-                                <rect key="frame" x="62" y="552" width="290" height="60"/>
+                                <rect key="frame" x="62" y="562" width="290" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="KYn-gE-e2n"/>
+                                    <constraint firstAttribute="height" constant="100" id="KYn-gE-e2n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTQ-Bd-suj">
-                                <rect key="frame" x="62" y="426.5" width="290" height="60"/>
+                                <rect key="frame" x="62" y="426.5" width="290" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="RJK-Md-iqQ"/>
+                                    <constraint firstAttribute="height" constant="70" id="RJK-Md-iqQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>

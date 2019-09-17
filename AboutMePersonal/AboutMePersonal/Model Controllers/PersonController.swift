@@ -53,7 +53,7 @@ class PersonController {
         score.score += 1
         saveToPersistentStore()
     }
-//
+    
     func subtractScoreFromPerson(person: Person) {
         let score = getScoreForPerson(person: person)
         score.score -= 1
