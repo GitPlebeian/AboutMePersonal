@@ -13,6 +13,7 @@
 		867BD9B223313EBF00B17773 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BD9B123313EBF00B17773 /* PersonDetailViewController.swift */; };
 		867BD9B423313EE400B17773 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BD9B323313EE400B17773 /* PeopleListViewController.swift */; };
 		867BD9B623313F6F00B17773 /* PersonDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867BD9B523313F6F00B17773 /* PersonDetailView.storyboard */; };
+		A5DFFCD0233141BD00CB91ED /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DFFCCF233141BD00CB91ED /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		867BD9B123313EBF00B17773 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 		867BD9B323313EE400B17773 /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
 		867BD9B523313F6F00B17773 /* PersonDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonDetailView.storyboard; sourceTree = "<group>"; };
+		A5DFFCCF233141BD00CB91ED /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = AboutMePersonal/Person.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		867BD9AF23313DF000B17773 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A5DFFCCF233141BD00CB91ED /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				867BD9B223313EBF00B17773 /* PersonDetailViewController.swift in Sources */,
 				867BD9B423313EE400B17773 /* PeopleListViewController.swift in Sources */,
+				A5DFFCD0233141BD00CB91ED /* Person.swift in Sources */,
 				867BD99A23313CBB00B17773 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2WP5X762NJ;
+				DEVELOPMENT_TEAM = 5H77479UZ4;
 				INFOPLIST_FILE = "$(SRCROOT)/AboutMePersonal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -345,7 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2WP5X762NJ;
+				DEVELOPMENT_TEAM = 5H77479UZ4;
 				INFOPLIST_FILE = "$(SRCROOT)/AboutMePersonal/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
