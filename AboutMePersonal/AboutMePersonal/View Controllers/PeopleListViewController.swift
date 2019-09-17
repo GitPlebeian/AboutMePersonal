@@ -10,10 +10,15 @@ import UIKit
 
 class PeopleListViewController: UIViewController {
 
+    // MARK: - Outlets
+    
+    @IBOutlet weak var peopleListTableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        peopleListTableView.delegate = self
+        peopleListTableView.dataSource = self
     }
     
 
@@ -27,4 +32,19 @@ class PeopleListViewController: UIViewController {
     }
     */
 
+}
+
+extension PeopleListViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 8
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = peopleListTableView.dequeueReusableCell(withIdentifier: "peopleCell", for: indexPath)
+        
+        cell.textLabel?.text = "Bob"
+        cell.detailTextLabel?.text = "Coolscore 8"
+        
+        return cell
+    }
 }
