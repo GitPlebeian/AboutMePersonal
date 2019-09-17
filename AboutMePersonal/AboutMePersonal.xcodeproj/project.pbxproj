@@ -15,6 +15,7 @@
 		867BD9B623313F6F00B17773 /* PersonDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867BD9B523313F6F00B17773 /* PersonDetailView.storyboard */; };
 		867BD9B82331406200B17773 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BD9B72331406200B17773 /* PersonController.swift */; };
 		867BD9BA2331428A00B17773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867BD9B92331428A00B17773 /* Main.storyboard */; };
+		A57104852331453600D9BF88 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57104842331453600D9BF88 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		867BD9B523313F6F00B17773 /* PersonDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonDetailView.storyboard; sourceTree = "<group>"; };
 		867BD9B72331406200B17773 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 		867BD9B92331428A00B17773 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A57104842331453600D9BF88 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		867BD9AF23313DF000B17773 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A57104842331453600D9BF88 /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57104852331453600D9BF88 /* Person.swift in Sources */,
 				867BD9B82331406200B17773 /* PersonController.swift in Sources */,
 				867BD9B223313EBF00B17773 /* PersonDetailViewController.swift in Sources */,
 				867BD9B423313EE400B17773 /* PeopleListViewController.swift in Sources */,
